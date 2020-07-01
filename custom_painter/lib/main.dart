@@ -1,4 +1,5 @@
 import 'package:custom_painter/src/pages/animaciones_page.dart';
+import 'package:custom_painter/src/retos/cuadrad_animado.dart';
 //import 'package:custom_painter/src/pages/header_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Disenho App',
-      home: AnimacionesPage(),
+      home: CuadradoAnimadoPage(),
     );
   }
 }
